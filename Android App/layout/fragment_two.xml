@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahe.webrover2.two"
+    android:background="@drawable/hand">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/down"
+        android:id="@+id/imageButton31"
+        android:background="@null"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="355dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/left"
+        android:id="@+id/imageButton32"
+        android:background="@null"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="305dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/right"
+        android:id="@+id/imageButton33"
+        android:background="@null"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="305dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/up"
+        android:id="@+id/imageButton34"
+        android:background="@null"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="245dp"/>
+
+    <Button
+        android:text="Grab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="245dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:text="Release"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="402dp"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:layout_height="200dp"
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_weight="0.19"
+        android:layout_marginTop="50dp"/>
+</FrameLayout>

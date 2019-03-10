@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahe.webrover2.one"
+    android:weightSum="1"
+    android:background="@drawable/cam">
+
+    <ImageView
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_weight="0.19"
+        android:layout_marginTop="50dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/camfwd"
+        android:id="@+id/imageButton8"
+        android:background="@null"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="250dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/camleft"
+        android:id="@+id/imageButton11"
+        android:background="@null"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="310dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/camright"
+        android:id="@+id/imageButton9"
+        android:background="@null"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="310dp"/>
+
+    <Button
+        android:text="Reset"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="2dp"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/camback"
+        android:id="@+id/imageButton10"
+        android:background="@null"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="370dp"/>
+
+
+</FrameLayout>
